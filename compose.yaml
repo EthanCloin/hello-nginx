@@ -3,4 +3,7 @@ services:
     build: nginx/
     ports: 
       - 8080:80
-
+  hello-flask:
+    build: flask-app/
+    ports:
+      - 8000:8000
