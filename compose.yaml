@@ -1,6 +1,6 @@
 services:
   hello-nginx:
-    build: .
+    build: nginx/
     ports: 
       - 8080:80
 
